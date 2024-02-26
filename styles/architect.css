@@ -251,8 +251,8 @@ main{
     background: rgb(255, 244, 231);
     color: rgb(66, 66, 66);
     padding: 20px;
-    /* margin: 100px 200px 150px; */
-    margin: auto;
+    margin: 100px 200px 150px;
+    /* margin: auto; */
     text-align: center;
 }
 
@@ -292,6 +292,11 @@ main{
     .facts-card-container{
         gap: 20px;
     }
+
+    .footer{
+    margin: 10%;
+
+    }
 }
 
 /* tablet or medium devices */
@@ -306,4 +311,8 @@ main{
     .facts-card-container{
         gap: 10px;
     }
+    .footer{
+        margin: 10%;
+    
+        }
 }
